@@ -18,7 +18,7 @@
         </ul>
         <ul>
           <li>
-            <button type="button">Корзина</button>
+            <a href="order.html">Корзина</a>
           </li>
         </ul>
       </nav>
@@ -43,7 +43,25 @@
         <p>Вы даже не подозреваете,  насколько вы изумительны!</p>
         <button type="button" name="button">Заказать</button>
       </section>
-      <!-- тут будет какая то штука в main-->
+      <!-- форма-->
+      <section>
+        <h2>Напишите нам</h2>
+        <form action="#" method="post">
+          <p>
+            <label id="appointment-name">Ваше имя:</label>
+            <input for="appointment-name" type="text" name="name" placeholder="Имя Фамилия">
+          </p>
+          <p>
+            <label id="appointment-email">Ваш e-mail:</label>
+            <input for="appointment-email" type="email" name="emailaddress" placeholder="email@example.com">
+          </p>
+          <p>
+            <label id="appointment-text">Текст письма:</label>
+            <input for="appointment-text" type="text" name="text" placeholder="В свободной форме">
+          </p>
+          <button type="submit">Отправить</button>
+        </form>
+      </section>
     </main>
     <footer>
       <div>
