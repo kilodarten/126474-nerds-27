@@ -16,7 +16,39 @@ body {
 a {
   text-decoration: none;
 }
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+
+.main-header {
+  margin-bottom: 43px;
+}
+
+.main-header-logo {
+  width: 160px;
+  height: 65px;
+}
+
+.site-navigation {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.user-navigation {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
 .main-navigation {
+  display: flex;
   font-size: 16px;
   line-height: 30px;
   color: #000000;
@@ -24,6 +56,25 @@ a {
   text-transform: uppercase;
   background-color: #eeeeee;
 }
+
+.main-navigation-wrapper {
+  width: auto;
+}
+
+.main-navigation-wrapper .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-navigation {
+  width: 450px;
+}
+
+.user-order {
+  width:150px;
+}
+
+
 .site-navigation,
 .user-order {
   list-style: none;
@@ -64,11 +115,21 @@ a {
   color: rgba(0, 0, 0, 0.3);
 }
 .features-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+
   list-style: none;
 }
 
 .features {
-  text-align: center;
+ margin-bottom: 80px
+}
+
+.feature-item {
+  width: 350px;
+
 }
 .feature-item h2 {
   font-size: 24px;
@@ -110,12 +171,25 @@ background-color: #efc84a;
 border: none;
 }
 .main-footer {
+  margin-top: 420px;   <!-- для наглядности, потом убрать-->
+
  background-color: #ffffff;
  background-position: 0 0;
  background-repeat: repeat;
+
 }
 .footer-social {
   text-align: center;
+   margin: 0;
+   width: 300px;
+}
+
+.footer-info-0 {
+  width: 600px;
+}
+
+.main-footer .container {
+  display: flex;
 }
 
 .footer-social ul {
